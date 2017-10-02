@@ -33,11 +33,16 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
+exclude:
+  # - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+  - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
