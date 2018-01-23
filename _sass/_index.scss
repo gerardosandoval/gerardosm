@@ -2,32 +2,27 @@ body{
   color: #050505;;
   font-family: 'Handycheera';
   height: 100vh;
+  min-width: 320px;
   background-color: #fafafa;
 }
 
 .name-container{
   font-size: 50px;
   background-color: #fff;
-  height: 50%;
   padding: 50px;
-  min-width: 385px;
-  min-height: 250px;
+  min-height: 270px;
   height: 40%;
   border-bottom: 1px solid #ebebeb;
 
-  #first-name{
-    display: inline-block;
-  }
+  .full-name{ width: 100%; }
+
+  #name{ display: inline-block; }
 
   #selfie{
     background-color: #050505;
     height: 80px;
     width: 80px;
     border: 2px solid #050505; 
-    display: inline-block;
-  }
-
-  #last-name{
     display: inline-block;
   }
   
@@ -39,7 +34,15 @@ body{
   }
 }
 
-.container{
+@media (max-width: 575px) {
+  .name-container{
+    min-height: 380px;
+    
+    #description{ font-size: 24px; } 
+  }
+}
+
+.navigation{
   height: 60%;
   text-align: center;
   color: #fff;
@@ -49,8 +52,6 @@ body{
       max-width: 100%;
       background-color: #fafafa;;
       margin: 1rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
       padding: 0;
 
       img{
@@ -72,9 +73,7 @@ body{
     div:hover {
       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
       
-      img{
-        opacity: 1;
-      }
+      img{ opacity: 1; }
     }
   }
 } 
