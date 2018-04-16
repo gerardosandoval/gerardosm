@@ -1,6 +1,6 @@
 body{
   color: #050505;;
-  font-family: 'Handycheera';
+  font-family: 'Handycheera' !important;
   height: 100vh;
   min-width: 320px;
   background-color: #fafafa;
@@ -11,7 +11,7 @@ body{
   background-color: #fff;
   padding: 50px;
   min-height: 270px;
-  height: 40%;
+  height: 70%;
   border-bottom: 1px solid #ebebeb;
 
   .full-name{ width: 100%; }
@@ -43,7 +43,7 @@ body{
 }
 
 .navigation{
-  height: 60%;
+  height: 30%;
   text-align: center;
   color: #fff;
 
