@@ -1,34 +1,36 @@
 body{
   color: #050505;;
-  font-family: 'Handycheera' !important;
+  font-family: monospace !important;
   height: 100vh;
   min-width: 320px;
   background-color: #fafafa;
 }
 
 .name-container{
-  font-size: 50px;
+  font-family: 'Handycheera';
+  font-size: 60px;
   background-color: #fff;
   padding: 50px;
   min-height: 270px;
-  height: 70%;
+  height: 50%;
   border-bottom: 1px solid #ebebeb;
 
-  .full-name{ width: 100%; }
+  .full-name{ 
+    width: 100%;
+  }  
 
   #name{ display: inline-block; }
 
   #selfie{
     background-color: #050505;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border: 2px solid #050505; 
     display: inline-block;
   }
   
   #description{
-    margin-top: 2rem;
-    font-size: 30px;
+    font-size: 35px;
     font-family: monospace;
     color: #03254E;
   }
@@ -42,38 +44,24 @@ body{
   }
 }
 
-.navigation{
-  height: 30%;
-  text-align: center;
-  color: #fff;
+.contact{
+  height: 50%;
+  padding-top: 5%;
 
   .row{
-    div {
-      max-width: 100%;
-      background-color: #fafafa;;
-      margin: 1rem;
-      padding: 0;
+    margin-top: 30px;
 
-      img{
-        position: relative;
-        width: 100%;
-        opacity: 0.7;
-      }
-
-      h3{
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-      }
+    img {
+      height: 50px;
+      width: 50px;
+      margin: 10px;
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.12);
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      border-radius:50%;
     }
 
-    div:hover {
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-      
-      img{ opacity: 1; }
+    img:hover{
+      box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.12);
     }
   }
-} 
+}
