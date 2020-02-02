@@ -6,6 +6,7 @@ description: This is the description
 published: false
 ---
 
+
 # Code-Review culture does matter
 
 Some time ago I found myself working for a company with great social and professional culture, working there felt great, at first. Few months later and being working for that company for at least 6 months, things were not as great as they should be
