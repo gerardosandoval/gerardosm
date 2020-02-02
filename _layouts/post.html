@@ -2,14 +2,10 @@
 <html>
 
   {% include head.html %}
-
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="/"> < Gerardo Sandoval</a>
-  </nav>
+  {% include nav.html %}
 
   <body>
-    <div class="container">
-      <h5>blogs lists</h5>
+    <div class="container post">
       {{content}}
     </div>
   </body>

@@ -2,7 +2,10 @@
 layout: posts
 ---
 
+{% assign counter= 0 %}
+
 {% for post in site.posts %}
+  {% assign counter=counter | plus:1 %}
   <div class="card w-100">
     <a href="{{ post.url }}" class="card-body">
       <h5 class="card-title">{{ post.title }}</h5>
@@ -11,3 +14,10 @@ layout: posts
     </a>
   </div>
 {% endfor %}
+
+{% if counter < 1 %}
+  <div class="mt-5 text-center">
+    Oh, sorry! There are no posts yet.
+  </div>
+
+{% endif %}
