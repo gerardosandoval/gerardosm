@@ -1,0 +1,19 @@
+.navbar{ font-family: 'Handycheera'; }
+
+.hero{
+  border-bottom: 1px solid #ebebeb;
+  height: 300px;
+}
+
+.card{
+  margin: 20px 0 20px 0;
+}
+a.card-body{
+  color: #212529;
+}
+
+a:hover.card-body{
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}

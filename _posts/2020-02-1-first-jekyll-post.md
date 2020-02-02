@@ -1,6 +1,8 @@
 ---
 layout: post
+permalink: this-is-it
 title:  "Welcome to Jekyll!"
+description: This is the description
 ---
 
 # Welcome
