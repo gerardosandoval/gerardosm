@@ -1,15 +1,27 @@
 ---
 layout: post
-permalink: this-is-it
-title:  "Welcome to Jekyll!"
-description: This is the description
-published: false
+title:  Code-Review culture does matter
+description: Having a great code review culture can boost yout deliverance
+published: true
 ---
 
 
 # Code-Review culture does matter
 
-Some time ago I found myself working for a company with great social and professional culture, working there felt great, at first. Few months later and being working for that company for at least 6 months, things were not as great as they should be
+Some time ago I found myself working for a company with great social and professional culture, working there felt great, at first. Few months later, things were not as great as they should be.
+
+I realized that there were some organizational issues that were impacting greatly on the team performance: definition of responsabilities was lacking in the company, devs were mainly working alone with poor team communication, and only few development standards and practices were set.
+
+Among those issues, I was always struggling with an specific problem: getting my PR's reviewed, approved and merged.
+
+Deliverance was so slow that some PR's were stuck in the 'in review' column for more than a month, those developments were a lost couse, outdated and with several conflicts, more work was needed to update them that the work needed to develop them in the first place.
+
+
+That's why I decided to investigate a little more about this topic and identify how to create a great and strong code review culture.
+
+### ¿Why people hate it?
+I know that everyone hates it, but definitly several companies struggle with it.
+
 
 
 ## English version

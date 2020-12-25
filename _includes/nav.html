@@ -1,4 +1,9 @@
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="/">Gerardo Sandoval</a>
-  <a class="navbar-brand float-right" href="/">Home</a>
+<nav class="navbar navbar-light">
+  {% if page.url == "/" %}
+    <a class="navbar-brand">Gerardo Sandoval</a>
+    <a class="navbar-brand float-right" href="/blog">Blog</a>
+  {% else %}
+    <a class="navbar-brand" href="/">Gerardo Sandoval</a>
+    <a class="navbar-brand float-right" href="/">Home</a>
+  {% endif %}
 </nav>
