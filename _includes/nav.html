@@ -2,8 +2,16 @@
   {% if page.url == "/" %}
     <a class="navbar-brand">Gerardo Sandoval</a>
     <a class="navbar-brand float-right" href="/blog">Blog</a>
+  {% elsif page.url == "/blog.html" %}
+    <a class="navbar-brand" href="/">Gerardo Sandoval</a>
+    <div class="float-right">
+      <a class="navbar-brand float-right" href="/">Home</a>
+    </div>
   {% else %}
     <a class="navbar-brand" href="/">Gerardo Sandoval</a>
-    <a class="navbar-brand float-right" href="/">Home</a>
+    <div class="float-right">
+      <a class="navbar-brand float-right" href="/">Home</a>
+      <a class="navbar-brand float-right" href="/blog">< Back</a>
+    </div>
   {% endif %}
 </nav>

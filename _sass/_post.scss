@@ -1,1 +1,11 @@
 .post { font-size: 15px }
+
+blockquote {
+  background-color: gainsboro;
+  padding: 20px;
+  font-style: italic;
+}
+
+blockquote > p {
+  margin: 0px;
+}
