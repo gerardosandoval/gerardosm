@@ -1,24 +1,31 @@
 ---
 layout: post
 title:  "Use your brain!"
-description: Googling stuff is easier but not best.
+description: Googling stuff is easier but not best and why you are not retaining any knowledge
 published: true
 ---
 
 
 # Use your brain!
+&nbsp;
 
-A tip from a programmer: Use your brain!
+A tip from and for a programmer: Use your brain!
 
-You've always heard that programmers are good at googling stuff, and that actually that is what we do every day, and that may be true. But, to be a good programmer absorve knowledge, you've gotta follow a different strategy.
 
-Some programmers use google, stackoverlfow or any other code source as the first place to go to search for information, and this scenary would be the equivalent of plan A to be executed. But it shouldn't be, plan A should be using your brain, and the fallback plan will be to search for the answer. 90% of the time you'll be using the fallback plan, and thats OK, but always try to use the fallback plan after you apply plan A.
+The idea of programmers sole job is googling stuff has gained popularity over time, and it actually has a great amount of truth in it, but in order to be a great programmer, you need to absorve the knowledge you google for, and that may not be the as easy as it reads.
 
-Two reasons of why you forget how to do things:
 
-1. You've never used that specific knowledge in your life
-2. You prefer to use external sources instead of using your head.
+Some programmers use google, stackoverflow or any other source to find insights on how to solve a problem, and most of them follow this as the first thing to do after a new issue has been assigned to them. But hey! Guess what? It shouldn't be!
 
-TIPIS:
+Your plan A or first thing to do should always be using your brain... Think first and search after (if needed)
+
+Plan B will be to google for some insights and/or maybe the answer. More times that not you'll be using the fallback plan (plan B), and thats OK, but always try to use the fallback plan after you apply plan A.
+
+##### Two reasons of why you are not learnig anything new:
+
+1. If you don't put some effort on thinking solutions... Your brain will never be used to associate and remember this information.
+2. You are a lazy ass that avoids heavy thinking and prefers to google stuff out first.
+
+##### Tips:
 - Think before googling!
 - Read! Do not try to jump into conclusions... read and analyze the issue first!
