@@ -3,6 +3,7 @@ layout: post
 title: Use your brain!
 description: Googling stuff is easier but not best and why you are not retaining any knowledge
 published: true
+permalink: blog/use-you-brain
 ---
 # Use your brain!
 

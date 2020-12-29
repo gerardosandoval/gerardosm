@@ -4,6 +4,7 @@ title: Code-Review culture does matter
 published: true
 description: Having a great code review culture can boost your deliverance
 tags: codereview, deliverance
+permalink: /blog/code-review-culture-does-matter
 ---
 # Code-Review culture does matter.
 
@@ -45,7 +46,7 @@ After reading and investigating a while I found that there are some practices th
 ##### ¿What to do as an author?
 - Provide sufficient context. Explain your changes and avoid context hunting. _If content is king, then context is God (Gary Vaynerchuk)._
 - Explain why you chose that solutions, not everyone thinks like you.
-- ¿You found and learned something new and useful? Document it! It can help others.
+- ¿You learned something new and useful? Document it! It can help others.
 
 ##### ¿What to do as a reviewer?
 - Ask, don't tell. Write your observations as a question instead of demanding a change. Asking the right questions the right way results in a better technical discussion.
